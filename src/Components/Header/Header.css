@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 70%;
+}
+
+.logo img {
+    width: 400px;
+}
+
+.nav {
+    width: 30%;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 20px;
+}
+
+.submit {
+    width: 80px;
+    border-radius: 20px;
+    background-color: #f26179;
+    color: white;
+}

@@ -1,0 +1,8 @@
+.navigation {
+    list-style: none;
+    display: flex
+}
+
+.navigation li {
+    padding-right: 20px;
+}

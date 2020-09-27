@@ -1,11 +1,16 @@
 import React from 'react';
+import { Row } from 'react-bootstrap';
+import Banner from '../Banner/Banner';
+import DisplayItems from '../DisplayItems/DisplayItems';
 import './Home.css';
 
 const Home = () => {
+    
     return (
-        <div>
-            <h1>This is home</h1>
-        </div>
+        <Row>
+            <Banner/>
+            <DisplayItems/>
+        </Row>
     );
 };
 
